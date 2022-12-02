@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 1400px) {
   .footer {
-    width: 992px;
+    width: 1000px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
@@ -60,7 +60,6 @@
 }
 @media screen and (max-width: 567px) {
   .footer {
-    width: 90%;
     grid-template-columns: 1fr;
   }
 }

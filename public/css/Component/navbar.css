@@ -97,10 +97,16 @@
   display: none;
 }
 
+@media screen and (max-width: 1400px) {
+  .navbar .nav_ul li a {
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .nav_section {
     padding: 0 6%;
   }
+  
 }
 @media screen and (max-width: 992px) {
   .nav_togg_btn {

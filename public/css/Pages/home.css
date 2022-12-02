@@ -1,4 +1,4 @@
-#home_section {
+#home_bg_section {
   margin-top: 80px;
 }
 .home_bg {
@@ -49,6 +49,37 @@
   background-color: #056edfbd;
 }
 
+.home_mang_con{
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  color: #222;
+}
+.home_mang_con h2{
+  margin-bottom: 0.5rem;
+}
+.home_mang_con img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1400px) {
   .home_bg {
     height: 75vh;
@@ -62,7 +93,17 @@
   .home_bg_content img {
     width: 500px;
   }
+  .home_mang_con{
+    width: 1000px;
+  }
 }
+
+@media screen and (max-width: 1200px) {
+  .home_mang_con{
+    width: 90%px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .nav_logo img {
     width: 100px;
