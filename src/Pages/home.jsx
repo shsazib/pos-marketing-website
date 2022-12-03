@@ -6,12 +6,16 @@ import accoMang from "./img/accou_mang.png";
 import repMang from "./img/report.png";
 import Desktop from "./img/Desktop.png";
 
-import IphoneAnd from './img/iphone-adnd.png';
-import Support from './img/customar-support.png';
-import Database from './img/datbase.png'
+import IphoneAnd from "./img/iphone-adnd.png";
+import Support from "./img/customar-support.png";
+import Database from "./img/datbase.png";
+
+import PosUser from "./img/pos-use-pic.png";
 import { NavLink } from "react-router-dom";
 import { RiArrowRightFill } from "react-icons/ri";
 import { BsYoutube, BsFacebook, BsWhatsapp } from "react-icons/bs";
+
+import PosUserRev from "../Component/customarRev/customarRev";
 
 const home = () => {
   return (
@@ -134,6 +138,16 @@ const home = () => {
             <h3>100% নিরাপদ ডাটাবেস</h3>
             <p>এটি ব্যবসার সকল তথ্য গোপন রাখে এবং ১০০% নিরাপত্তা প্রদান করে</p>
           </div>
+        </div>
+      </section>
+
+      <section className="hom_bottom_testimonuial">
+        <p id="testimonuial_title">
+          বাংলাদেশের হাজার হাজার ব্যবসায়ী দের আস্থা অর্জন করতে পেরে আমরা
+          গর্বিত।
+        </p>
+        <div className="customar_rev">
+          <PosUserRev />
         </div>
       </section>
     </>

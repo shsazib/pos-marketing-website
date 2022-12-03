@@ -135,6 +135,16 @@
 .feature_card img {
   width: 150px;
 }
+.hom_bottom_testimonuial {
+  width: 1200px;
+  margin: 0 auto;
+}
+.hom_bottom_testimonuial #testimonuial_title {
+  width: 60%;
+  margin: 40px auto 0px auto;
+  font-size: calc(20px + (35 - 20) * (100vw - 320px) / (2100 - 320));
+  text-align: center;
+}
 
 @media screen and (max-width: 1400px) {
   .home_bg {
@@ -150,14 +160,16 @@
     width: 500px;
   }
   .home_mang,
-  .feature_cards {
+  .feature_cards,
+  .hom_bottom_testimonuial {
     width: 1000px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .home_mang,
-  .feature_cards {
+  .feature_cards,
+  .hom_bottom_testimonuial {
     width: 90%;
   }
   .contact_section {
