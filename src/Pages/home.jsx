@@ -5,6 +5,10 @@ import StoMang from "./img/sto_mang.png";
 import accoMang from "./img/accou_mang.png";
 import repMang from "./img/report.png";
 import Desktop from "./img/Desktop.png";
+
+import IphoneAnd from './img/iphone-adnd.png';
+import Support from './img/customar-support.png';
+import Database from './img/datbase.png'
 import { NavLink } from "react-router-dom";
 import { RiArrowRightFill } from "react-icons/ri";
 import { BsYoutube, BsFacebook, BsWhatsapp } from "react-icons/bs";
@@ -100,6 +104,35 @@ const home = () => {
                 সেল’স সহ অন্যান্য রিপোর্ট।
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="feature_cards">
+        <div className="feature">
+          <div className="feature_card">
+            <img src={IphoneAnd} alt="IphoneAnd" />
+            <h3> Android এবং IPhone</h3>
+            <p>
+              ঘরে, বাইরে এবং অফিসে যেখানেই হক না কেনো, ব্যবসার নিয়ন্ত্রন থাকবে
+              আপনার হাতের মুঠোই
+            </p>
+          </div>
+        </div>
+        <div className="feature">
+          <div className="feature_card">
+            <img src={Support} alt="Support" />
+            <h3>ফ্রী সাপোর্ট</h3>
+            <p>
+              অনলাইনে অথবা ফোন যেকোনো সময় আমরা আপনার সাপোর্ট এর জন্য প্রস্তুত
+            </p>
+          </div>
+        </div>
+        <div className="feature">
+          <div className="feature_card">
+            <img src={Database} alt="Database" />
+            <h3>100% নিরাপদ ডাটাবেস</h3>
+            <p>এটি ব্যবসার সকল তথ্য গোপন রাখে এবং ১০০% নিরাপত্তা প্রদান করে</p>
           </div>
         </div>
       </section>
