@@ -20,16 +20,16 @@ const footer = () => {
           <div className="footer_logo">
             <img src={Logo} alt="logo" />
             <div className="footer_soc_icon">
-              <a href="#">
+              <a href="https://www.facebook.com/zealtechbd" target="_blank">
                 <BsFacebook />
               </a>
               <a href="#">
                 <BsYoutube />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/zealtech-bd-540253251/" target="_blank">
                 <BsLinkedin />
               </a>
-              <a href="#">
+              <a href="https://www.zealtechbd.com/" target="_blank">
                 <TbWorldLongitude />
               </a>
             </div>
@@ -37,10 +37,6 @@ const footer = () => {
           <div>
             <h2>সাপোর্ট</h2>
             <p>যে কোন প্রয়োজনে আমাদের কল করুন। আমরা পাশে আছি ২৪ ঘণ্টা।</p>
-            <p className="address_line">
-              <BsTelephoneFill />
-              <a href="tel:01977749733"><span>++88 01977749733</span></a>
-            </p>
             <p className="address_line">
               <BsTelephoneFill />
               <a href="tel:01977749733"><span>++88 01977749733</span></a>

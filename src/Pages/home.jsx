@@ -43,7 +43,7 @@ const home = () => {
       </section>
 
       <section className="contact_section">
-        <a href="" className="con_item con_item_whatsapp">
+      <a href=" https://wa.me/8801827892939?text=Hello%20" target="_blank" className="con_item con_item_whatsapp">
           <BsWhatsapp className="con_item_social con_whatsapp" />
           <div>
             <h3>Whatsapp</h3>
@@ -51,7 +51,7 @@ const home = () => {
           </div>
           <RiArrowRightFill />
         </a>
-        <a href="" className="con_item con_item_facebook">
+        <a href="https://www.facebook.com/zealtechbd" target="_blank" className="con_item con_item_facebook">
           <BsFacebook className="con_item_social con_facebook" />
           <div>
             <h3>Facebook</h3>
@@ -59,7 +59,7 @@ const home = () => {
           </div>
           <RiArrowRightFill />
         </a>
-        <a href="" className="con_item con_item_youtube">
+        <a href="#" className="con_item con_item_youtube">
           <BsYoutube className="con_item_social con_youtube" />
           <div>
             <h3>Youtube</h3>
