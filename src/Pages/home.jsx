@@ -34,7 +34,7 @@ const home = () => {
               </h3>
               <div className="home_bg_content_btn">
                 <NavLink to="#">View Demo</NavLink>
-                <NavLink to="#">Call for Order</NavLink>
+                <a href="tel:01977749733">Call for Order</a>
               </div>
             </div>
             <img className="desktop" src={Desktop} alt="Desktop" />

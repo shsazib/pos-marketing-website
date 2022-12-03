@@ -39,15 +39,15 @@ const footer = () => {
             <p>যে কোন প্রয়োজনে আমাদের কল করুন। আমরা পাশে আছি ২৪ ঘণ্টা।</p>
             <p className="address_line">
               <BsTelephoneFill />
-              <span>++88 01977749733</span>
+              <a href="tel:01977749733"><span>++88 01977749733</span></a>
             </p>
             <p className="address_line">
               <BsTelephoneFill />
-              <span>++88 01977749733</span>
+              <a href="tel:01977749733"><span>++88 01977749733</span></a>
             </p>
             <p className="address_line">
               <BsTelephoneFill />
-              <span>++88 01977749733</span>
+              <a href="tel:01977749733"><span>++88 01977749733</span></a>
             </p>
           </div>
           <div>
