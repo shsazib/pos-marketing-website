@@ -117,6 +117,7 @@
   gap: 1rem;
 }
 .feature_card {
+  height: 100%;
   display: grid;
   justify-items: center;
   grid-gap: 0.7rem;

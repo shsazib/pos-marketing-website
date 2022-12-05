@@ -26,7 +26,10 @@ const footer = () => {
               <a href="#">
                 <BsYoutube />
               </a>
-              <a href="https://www.linkedin.com/in/zealtech-bd-540253251/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/zealtech-bd-540253251/"
+                target="_blank"
+              >
                 <BsLinkedin />
               </a>
               <a href="https://www.zealtechbd.com/" target="_blank">
@@ -39,11 +42,9 @@ const footer = () => {
             <p>যে কোন প্রয়োজনে আমাদের কল করুন। আমরা পাশে আছি ২৪ ঘণ্টা।</p>
             <p className="address_line">
               <BsTelephoneFill />
-              <a href="tel:01977749733"><span>++88 01977749733</span></a>
-            </p>
-            <p className="address_line">
-              <BsTelephoneFill />
-              <a href="tel:01977749733"><span>++88 01977749733</span></a>
+              <a href="tel:01977749733">
+                <span>++88 01977749733</span>
+              </a>
             </p>
           </div>
           <div>

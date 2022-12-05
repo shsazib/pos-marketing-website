@@ -1,10 +1,10 @@
 import React from "react";
 import Background from "./img/home-background.jpg";
 import SMang from "./img/sel-mang.png";
-import StoMang from "./img/sto_mang.png";
 import accoMang from "./img/accou_mang.png";
 import repMang from "./img/report.png";
 import Desktop from "./img/Desktop.png";
+import StoMang from "./img/stock-mang.png";
 
 import IphoneAnd from "./img/iphone-adnd.png";
 import Support from "./img/customar-support.png";

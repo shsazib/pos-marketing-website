@@ -30,7 +30,7 @@
   --wdm: -30px;
   width: calc(100% + var(--wd));
   position: absolute;
-  background-color: #00998c;
+  background-color: #00a78e;
   padding: 10px;
   text-align: center;
   bottom: calc(100% - 14px);
@@ -42,13 +42,13 @@
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .basic_plan_badge {
-  background-color: #00998c;
+  background-color: #00a78e;
 }
 .standard_plan_badge {
-  background-color: #e65400;
+  background-color: #d13814;
 }
 .premium_plan_badge {
-  background-color: #00a05de8;
+  background-color: #00c16e;
 }
 .basic_plan_badge p,
 .standard_plan_badge p,
@@ -82,19 +82,19 @@
   margin-right: 5px;
 }
 .bas_had_icon {
-  color: #00998c;
+  color: #00a78e;
 }
 .standard_had_icon {
-  color: #e65400;
+  color: #d13814;
 }
 .premium_had_icon {
-  color: #00a05de8;
+  color: #00c16e;
 }
 .month_price {
   text-align: center;
 }
 /* .month_p_basic{
-    border: 5px solid #00998c46;
+    border: 5px solid #00a78e46;
 }
 .month_price_standard{
     border: 5px solid #46007538;
@@ -114,7 +114,7 @@
 }
 .month_price_child h1 {
   font-size: 30px;
-  padding: 5px 10px 5px 7px;
+  padding: 5px 12px 5px 5px;
 }
 .month_price_child p {
   position: absolute;
@@ -127,13 +127,13 @@
   left: -10px;
 }
 .basc_plan_list_icon {
-  color: #00998c;
+  color: #00a78e;
 }
 .sta_plan_list_icon {
-  color: #e65400;
+  color: #d13814;
 }
 .pri_plan_list_icon {
-  color: #00a05de8;
+  color: #00c16e;
 }
 .call_btn {
   text-align: center;
@@ -145,13 +145,13 @@
   bottom: 20px;
 }
 #basic_call_btn {
-  background-color: #00998c;
+  background-color: #00a78e;
 }
 #standard_call_btn {
-  background-color: #e65400;
+  background-color: #d13814;
 }
 #premium_call_btn {
-  background-color: #00a05de8;
+  background-color: #00c16e;
 }
 
 @media screen and (max-width: 1400px) {

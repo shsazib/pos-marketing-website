@@ -8,6 +8,7 @@ import Pricing from "./Pages/pricing";
 import Demo from "./Pages/demo";
 import "./css/master.css";
 import ScrollTop from "./Component/scrollTop";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 const App = () => {
   return (
@@ -23,6 +24,11 @@ const App = () => {
           <Route path="/demo" element={<Demo />} />
         </Routes>
         <Footer />
+        <MessengerCustomerChat
+          pageId="<PAGE_ID>"
+          appId="<APP_ID>"
+          htmlRef="<REF_STRING>"
+        />
       </BrowserRouter>
     </>
   );
