@@ -14,9 +14,11 @@ const pricing = () => {
             </div>
             <div className="month_price month_p_basic">
               <div className="month_price_child">
-                <span>৳</span>
-                <h1>999</h1>
-                <p>/MO</p>
+                <div className="price_wrap">
+                  <span>৳</span>
+                  <h1>999</h1>
+                  <p>/MO</p>
+                </div>
               </div>
             </div>
             <div className="pricing">
@@ -90,9 +92,11 @@ const pricing = () => {
 
             <div className="month_price month_price_standard">
               <div className="month_price_child">
-                <span>৳</span>
-                <h1>1499</h1>
-                <p>/MO</p>
+                <div className="price_wrap">
+                  <span>৳</span>
+                  <h1>1499</h1>
+                  <p>/MO</p>
+                </div>
               </div>
             </div>
             <div className="pricing">
@@ -197,9 +201,11 @@ const pricing = () => {
             </div>
             <div className="month_price month_price_premium">
               <div className="month_price_child">
-                <span>৳</span>
-                <h1>2599</h1>
-                <p>/MO</p>
+                <div className="price_wrap">
+                  <span>৳</span>
+                  <h1>2499</h1>
+                  <p>/MO</p>
+                </div>
               </div>
             </div>
             <div className="pricing">

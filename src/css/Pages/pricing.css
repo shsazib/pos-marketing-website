@@ -31,7 +31,6 @@
   width: calc(100% + var(--wd));
   position: absolute;
   background-color: #00998c;
-  /* transform: rotate(-90deg); */
   padding: 10px;
   text-align: center;
   bottom: calc(100% - 14px);
@@ -39,8 +38,6 @@
   left: calc(var(--wdm) / 2);
   z-index: -1;
   padding-bottom: 20px;
-
-  /* z-index: -1; */
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
@@ -62,6 +59,7 @@
 .plan_list {
   display: flex;
   gap: 0.5rem;
+  font-size: calc(15px + (17 - 15) * (100vw - 320px) / (2100 - 320));
 }
 .pricing {
   display: grid;
@@ -107,8 +105,12 @@
 .month_price_child {
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   margin: 20px 0;
+}
+.price_wrap {
+  position: relative;
 }
 .month_price_child h1 {
   font-size: 30px;
@@ -117,7 +119,12 @@
 .month_price_child p {
   position: absolute;
   bottom: 0;
-  right: 0px;
+  right: -20px;
+}
+.month_price_child span {
+  position: absolute;
+  top: 0;
+  left: -10px;
 }
 .basc_plan_list_icon {
   color: #00998c;
@@ -147,11 +154,66 @@
   background-color: #00a05de8;
 }
 
-
-
-
 @media screen and (max-width: 1400px) {
   .pricing_section {
     width: 1000px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .pricing_section {
+    width: 90%;
+  }
+  .basic_price,
+  .standard_price,
+  .premium_price {
+    padding: 20px;
+  }
+  .pricing_section {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .basic_price,
+  .standard_price,
+  .premium_price {
+    padding: 10px;
+  }
+  .month_price_child {
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pricing_section {
+    grid-template-columns: 1fr 1fr;
+  }
+  .basic_price,
+  .standard_price,
+  .premium_price {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .pricing_section {
+    width: 80%;
+    margin: 200px auto 10px auto;
+  }
+  .pricing_section {
+    grid-template-columns: 1fr;
+  }
+  .basic_plan_badge p,
+  .standard_plan_badge p,
+  .premium_plan_badge p {
+    color: #fff;
+    font-size: 17px;
+  }
+  .basic_price,
+  .standard_price,
+  .premium_price {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .month_price_child {
+    margin: 0px 0;
   }
 }

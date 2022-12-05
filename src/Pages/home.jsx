@@ -15,7 +15,7 @@ import { NavLink } from "react-router-dom";
 import { RiArrowRightFill } from "react-icons/ri";
 import { BsYoutube, BsFacebook, BsWhatsapp } from "react-icons/bs";
 
-import PosUserRev from "../Component/customarRev/customarRev";
+import PosUserRev from "../Component/customarRev";
 
 const home = () => {
   return (
@@ -43,7 +43,11 @@ const home = () => {
       </section>
 
       <section className="contact_section">
-      <a href=" https://wa.me/8801827892939?text=Hello%20" target="_blank" className="con_item con_item_whatsapp">
+        <a
+          href=" https://wa.me/8801827892939?text=Hello%20"
+          target="_blank"
+          className="con_item con_item_whatsapp"
+        >
           <BsWhatsapp className="con_item_social con_whatsapp" />
           <div>
             <h3>Whatsapp</h3>
@@ -51,7 +55,11 @@ const home = () => {
           </div>
           <RiArrowRightFill />
         </a>
-        <a href="https://www.facebook.com/zealtechbd" target="_blank" className="con_item con_item_facebook">
+        <a
+          href="https://www.facebook.com/zealtechbd"
+          target="_blank"
+          className="con_item con_item_facebook"
+        >
           <BsFacebook className="con_item_social con_facebook" />
           <div>
             <h3>Facebook</h3>
