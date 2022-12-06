@@ -109,10 +109,22 @@
   
 }
 @media screen and (max-width: 992px) {
+  .phone_nav_main{
+    width: 100%;
+    height: 80px;
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
+  }
   .nav_togg_btn {
     display: block;
   }
-  .navbar .nav_ul {
+  .nav_section {
     display: none;
   }
   .phone_nav {

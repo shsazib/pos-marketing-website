@@ -1,6 +1,4 @@
-#home_bg_section {
-  margin-top: 80px;
-}
+
 .home_bg {
   display: block;
   position: relative;
@@ -183,6 +181,9 @@
 @media screen and (max-width: 992px) {
   .nav_logo img {
     width: 100px;
+  }
+  #home_bg_section{
+    padding-top: 80px;
   }
   .home_bg_content {
     flex-direction: column;

@@ -1,6 +1,6 @@
 .pricing_section {
   width: 1200px;
-  margin: 200px auto 100px auto;
+  margin: 150px auto 100px auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: Arial, Helvetica, sans-serif;
@@ -173,6 +173,10 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .pricing_section{
+    padding-top: 180px;
+    margin-top: 0;
+  }
   .basic_price,
   .standard_price,
   .premium_price {

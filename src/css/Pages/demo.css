@@ -1,6 +1,6 @@
 .demo_section {
   width: 1200px;
-  margin: 100px auto 50px auto;
+  margin: 0px auto 50px auto;
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -35,6 +35,11 @@
   .demo_section {
     width: 90%;
     gap: 2rem;
+  }
+}
+@media screen and (max-width: 1200px){
+  .demo_section{
+    padding-top: 100px;
   }
 }
 @media screen and (max-width: 768px) {
