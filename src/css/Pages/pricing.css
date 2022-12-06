@@ -173,7 +173,7 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .pricing_section{
+  .pricing_section {
     padding-top: 180px;
     margin-top: 0;
   }
@@ -200,7 +200,7 @@
 @media screen and (max-width: 576px) {
   .pricing_section {
     width: 80%;
-    margin: 200px auto 10px auto;
+    margin: 0px auto 10px auto;
   }
   .pricing_section {
     grid-template-columns: 1fr;

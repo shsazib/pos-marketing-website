@@ -59,7 +59,7 @@
 }
 @media screen and (max-width: 768px) {
   .about_section {
-    margin: 110px auto 40px auto;
+    margin: 0px auto 40px auto;
   }
   .about_mid_cont {
     flex-direction: column;
