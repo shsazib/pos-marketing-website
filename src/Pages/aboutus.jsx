@@ -8,44 +8,36 @@ const aboutus = () => {
         <div>
           <h1>আমাদের সম্পর্কে</h1>
           <br />
-          <p>
-            আমার সলিউশন একটি অনলাইন সফটওয়্যার। যেখানে সব ধরনের শপ নিখুতঁভাবে
-            পরিচালনা করা সম্ভব।
+          <p className="about_top_name">
+          <b>zealtech pos</b> একটি অনলাইন <b>pos</b> সফটওয়্যার যার ভিতরে আপনি ছোট বড় সকল ব্যবসার হিসাব নিকাশ রাখতে পারবেন খুব সহজে।
           </p>
 
           <p>
-            বাংলাদেশের ক্ষুদ্র ও মাঝারি সকল ব্যবসা ডিজিটালাইজ করার লক্ষে আমরা
-            কাজ করে যাচ্ছি।
-          </p>
-
-          <p>
-            বর্তমানে আমরা চেস্টা করে যাচ্ছি গ্রাহকদের জন্য সহজে ব্যবহার উপযোগী
-            সফ্টওয়্যার প্রদান করার জন্য যা সহজেই তাদের ব্যবসা পরিচালনা করতে
-            সহায়তা করবে।
+          এর মাধ্যমে একটি ব্যবসাকে খুব সহজেই ডিজিটালাইজড করা যাবে সেইসাথে গ্রাহকদের কথা চিন্তা করে সফটওয়্যার এর ইন্টারফেস অনেক সহজ করা হয়েছে যাতে যে কেউ তার ব্যবসাকে সফটওয়ারের মাধ্যমে পরিচালনা করতে পারে ।
           </p>
         </div>
         <div className="about_mid_cont">
           <div className="about_mid_cont_left">
-            <h3>আমাদের উল্লেখ্য সুবিধা গুলো হলঃ</h3>
+            <h3 className="about_top_name">কেন <b> zealtech pos </b> ব্যবহার করবেন ?</h3>
             <div className="about_benefit">
               <BsFillCheckSquareFill className="about_benefit_icon" />
-              <p>সহজ অপারেটিং সিস্টেম</p>
+              <p>ইউজার ফ্রেন্ডলি</p>
             </div>
             <div className="about_benefit">
               <BsFillCheckSquareFill className="about_benefit_icon" />
-              <p>সকল সমাধান রয়েছে এক প্ল্যাটফর্মে</p>
+              <p>এক জায়গায় সকল সমস্যার সমাধান</p>
             </div>
             <div className="about_benefit">
               <BsFillCheckSquareFill className="about_benefit_icon" />
-              <p>আকাউন্ট’স ম্যানেজমেন্ট</p>
+              <p>অনলাইন ভিত্তিক তাই দেশের যেকোনো প্রান্ত থেকে চালাতে পারবেন</p>
             </div>
             <div className="about_benefit">
               <BsFillCheckSquareFill className="about_benefit_icon" />
-              <p>একটি শক্তিশালী সফ্টওয়্যার ডেভলপমেন্ট টিম</p>
+              <p> Windows / Linux / Mac সকল অপারেটিং সিস্টেমেই ব্যবহার করতে পারবেন</p>
             </div>
             <div className="about_benefit">
               <BsFillCheckSquareFill className="about_benefit_icon" />
-              <p>বিনামূল্যে কাস্টমাইজ করার শুবিধা</p>
+              <p>কাস্টমার সুবিধা</p>
             </div>
             <div className="about_benefit">
               <BsFillCheckSquareFill className="about_benefit_icon" />

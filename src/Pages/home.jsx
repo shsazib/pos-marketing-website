@@ -30,7 +30,7 @@ const home = () => {
               </h1>
               <h3>
                 আপনার ব্যাবসার সকল সমস্যা সমাধানে <br />
-                <span>zealtechpos</span> আছে আপনার পাশে
+                <span><b>zealtech pos</b></span> আছে আপনার পাশে
               </h3>
               <div className="home_bg_content_btn">
                 <NavLink to="#">View Demo</NavLink>

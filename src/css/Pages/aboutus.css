@@ -10,6 +10,11 @@
   align-items: center;
   margin: 30px 0;
 }
+.about_top_name b{
+    color: #008000;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
 .about_mid_cont_left {
   display: grid;
   grid-gap: 1rem;
