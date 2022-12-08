@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Noto+Sans+Bengali&display=swap');
 @import url('reset.min.css');
 @import url('./Component/navbar.css');
 @import url('./Pages/home.css');
@@ -5,6 +6,9 @@
 @import url('./Component/footer.css');
 @import url('./Component/customarRev.css');
 @import url('./Pages/pricing.css');
-@import url('./Pages//demo.css');
-
-
+@import url('./Pages/demo.css');
+body {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
